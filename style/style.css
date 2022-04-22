@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Oswald:wght@200;300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #DCDCDC;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container2 {
+    background-color: bisque;
+    width: 60vw;
+    min-height: 100vh;
+    border-left: 2px solid #aaaaaa;
+}
+
+.container-de-input {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:root {
+    --cor: #e0e0e0;
+    --fonte1: 'Oswald', sans-serif;
+}
+
+.img {
+    width: 40vw;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+
+header {
+    background-color: var(--cor);
+    min-height: 35vh
+}
+
+header>h2 {
+    padding-top: 6rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: rgb(70, 70, 70);
+}
+
+
+main {
+    margin-top: -5px;
+    background-color: white;
+    min-height: 30vh;
+    padding-bottom: 5vh;
+    border-bottom: 5px solid #bbbbbb;
+}
+
+main>h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(87, 87, 87);
+}
+
+.container-de-input {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+
+.footer{
+    background-color: var(--cor);
+    min-height: 30vh;
+}
+
+
+
+
+
+.column1 {
+    padding-top: 1rem;
+}
+
+.column2 {
+    padding-top: 1rem;
+}
+
+
+
+button {
+    max-height: 5vh;
+    margin-top: 5vh;
+    padding: 5px 10px;
+    background-color: rgba(0, 95, 0, 0.781);
+    border-radius: 5px;
+    color: aliceblue;
+    margin-left: 5.5vw;
+}
+
+
+h2 {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-family: var(--fonte1);
+}
+
+input {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+footer>p {
+    margin-top: 5vh;
+    margin-left: 5.5vw;
+}
